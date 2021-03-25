@@ -1,0 +1,51 @@
+
+body{
+    background-color: #f7f2f2;
+    margin: 0px;
+}
+.discription{
+    font-family: sans-serif;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-evenly;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.origami{
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 310px;
+    font-size: 20px;
+}
+.grid * {
+    margin-bottom: 30px;
+}
+.title{
+    position: relative;
+    color: white;
+}
+.title h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+}
+.title h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end;
+    background-color: white;
+}
